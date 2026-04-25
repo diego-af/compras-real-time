@@ -99,7 +99,7 @@ export default function ItemList({ list, initialItems }: ItemListProps) {
   const checkedItems = items.filter((item) => item.checked);
 
   return (
-    <div className="p-6">
+    <div className="p-6 pt-16 md:pt-6">
       <div className="max-w-lg mx-auto">
         <div className="flex justify-between items-center mb-6">
           <h1 className="text-2xl font-bold text-white">{list.name}</h1>

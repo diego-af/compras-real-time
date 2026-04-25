@@ -51,7 +51,7 @@ export default function HomePage() {
   };
 
   return (
-    <div className="p-6">
+    <div className="p-6 pt-16 md:pt-6">
       <div className="max-w-lg mx-auto">
         <h1 className="text-2xl font-bold text-white mb-6">Criar Nova Lista</h1>
 
